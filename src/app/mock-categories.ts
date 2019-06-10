@@ -1,0 +1,33 @@
+import { Category } from './category';
+
+export const categories: Category[] = [
+  { id: 1, name: 'Action & Adventure', description: 'Lorem Ipsum' },
+  { id: 2, name: 'Arts, Film & Photography', description: 'Lorem Ipsum' },
+  { id: 3, name: 'Biographies, Diaries & True Accounts', description: 'Lorem Ipsum' },
+  { id: 4, name: 'Business & Economics', description: 'Lorem Ipsum' },
+  { id: 5, name: "Children's & Young Adult", description: 'Lorem Ipsum' },
+  { id: 6, name: 'Comics & Mangas', description: 'Lorem Ipsum' },
+  { id: 7, name: 'Computing, Internet & Digital Media', description: 'Lorem Ipsum' },
+  { id: 8, name: 'Crafts, Home & Lifestyle', description: 'Lorem Ipsum' },
+  { id: 9, name: 'Crime, Thriller & Mystery', description: 'Lorem Ipsum' },
+  { id: 11, name: 'Exam Preparation', description: 'Lorem Ipsum' },
+  { id: 12, name: 'Fantasy, Horror & Science Fiction', description: 'Lorem Ipsum' },
+  { id: 13, name: 'Health, Family & Personal Development', description: 'Lorem Ipsum' },
+  { id: 14, name: 'Historical Fiction', description: 'Lorem Ipsum' },
+  { id: 15, name: 'History', description: 'Lorem Ipsum' },
+  { id: 16, name: 'Humour', description: 'Lorem Ipsum' },
+  { id: 17, name: 'Language, Linguistics & Writing', description: 'Lorem Ipsum' },
+  { id: 18, name: 'Law', description: 'Lorem Ipsum' },
+  { id: 19, name: 'Literature & Fiction', description: 'Lorem Ipsum' },
+  { id: 20, name: 'Maps & Atlases', description: 'Lorem Ipsum' },
+  { id: 21, name: 'Politics', description: 'Lorem Ipsum' },
+  { id: 22, name: 'Reference', description: 'Lorem Ipsum' },
+  { id: 23, name: 'Religion', description: 'Lorem Ipsum' },
+  { id: 24, name: 'Romance', description: 'Lorem Ipsum' },
+  { id: 25, name: 'School Bundles', description: 'Lorem Ipsum' },
+  { id: 26, name: 'Sciences, Technology & Medicine', description: 'Lorem Ipsum' },
+  { id: 27, name: 'Society & Social Sciences', description: 'Lorem Ipsum' },
+  { id: 28, name: 'Sports', description: 'Lorem Ipsum' },
+  { id: 29, name: 'Textbooks & Study Guides', description: 'Lorem Ipsum' },
+  { id: 30, name: 'Travel', description: 'Lorem Ipsum' }
+];

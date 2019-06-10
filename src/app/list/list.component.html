@@ -1,0 +1,24 @@
+<div class="video">
+    <iframe [class.thumbnail]="thumbnail" [src]="safeSrc" width="100%" height="315" frameborder="0" webkitallowfullscreen
+        mozallowfullscreen allowfullscreen></iframe>
+</div>
+<h2>Categories of Books</h2>
+<div *ngFor="let category of categories;let i = index">
+  <h3 class="list" [title]="category.name" (click)="onCategorySelect(i)">
+    <div>
+      <span>{{ category.name }}</span>
+      <div class="desc">
+        <span>Description:</span>
+        <span class="desc-txt"> {{ category.description }}</span>
+      </div>
+    </div>
+  </h3>
+  <div class="books" id="book{{i}}" *ngIf="selectedbooks != undefined && selectedbooks.length > 0">
+    <div class="book" *ngFor="let book of selectedbooks;let b = index" (click)="onBookSelect(b)" [title]="book.name">
+      {{ book.name }}
+    </div>
+  </div>
+  <div class="books" id="book{{i}}" *ngIf="selectedbooks == undefined || selectedbooks.length == 0">
+    None
+  </div>
+</div>

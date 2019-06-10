@@ -1,0 +1,21 @@
+.book-title {
+    border: 2px solid cadetblue;
+    margin-bottom: 4px;
+}
+.book-id {
+    padding: 8px 8px;
+    color: blue;
+}
+.book-name {
+    padding: 8px 10px;
+    color: #333;
+    font-weight: bold;
+}
+.book-desc {
+    border: 2px solid cadetblue;
+    padding: 8px 12px;
+    height: 15rem;
+}
+.backBtn {
+    margin-top: 2px;
+}

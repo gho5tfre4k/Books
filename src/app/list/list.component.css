@@ -1,0 +1,50 @@
+.list {
+    color: brown;
+    border: 1px solid chocolate;
+    cursor: pointer;
+    padding-left: 8px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.list:hover {
+    color: brown;
+    border: 1px solid lightsalmon;
+    background-color: aliceblue
+}
+.books {
+    display: none;
+    width: 70%;
+    padding: 2px 2px;
+}
+.show {
+    display: inline-block;
+}
+.book {
+    color: #333;
+    border: 1px solid burlywood;
+    cursor: pointer;
+    padding: 3px 10px;
+    font-weight: bold;
+}
+.book:hover {
+    border: 1px solid lightsalmon;
+    background-color: aliceblue
+}
+.desc-txt {
+    color: cadetblue;
+    font-weight: bold;
+}
+.desc{
+    color: lightslategray;
+    float: right;
+    font-size: 14px;
+    position: relative;
+    padding: 3px 8px;
+}
+p {
+    font-family: Lato;
+    margin: 4px 4px
+}
+.video {
+    margin: 10px 10px;
+}
